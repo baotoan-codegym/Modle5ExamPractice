@@ -18,14 +18,14 @@
         <td>Mô tả</td>
         <td><input type="text" formControlName="description" required=""></td>
         <br>
-        <span *ngIf="bookForm.controls.description.invalid" class="errorMessage">Mời nhập vào mô tả</span>
+        <span *ngIf="bookForm.controls.description.invalid" class="errorMessage">Mời nhập vào </span>
       </tr>
       <tr>
         <td></td>
         <td><button pButton type="submit" [disabled]="!bookForm.valid" label="Thêm sách"></button></td>
-        <td><button routerLink="/book/list" pButton type="button" label="Thoát"></button></td>
+        <td><button routerLink="/book/list" >Thoát</button></td>
       </tr>
-    </table>
+    </table>gi
   </form>
 
 </div>
